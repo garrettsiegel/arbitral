@@ -1,0 +1,147 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    color: #242424;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    width: 70%;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    margin-top: 2em;
+    margin-bottom: 7.5em;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    color: #F59E09;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav-button {
+    font-size: 1.125rem;
+    font-weight: 700;
+    background-color: #F59E09;
+    border: none;
+    padding: .5em 1.5em;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #F59E09;
+
+}
+
+.nav-button:hover {
+    font-size: 1.125rem;
+    font-weight: 700;
+    background-color: #F2F5F9;
+    border: none;
+    padding: .5em 1.5em;
+    border-radius: 3px;
+    color: #242424;
+    text-decoration: none;
+    border: 2px solid #242424;
+}
+
+.main-logo {
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 1em;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.section1-left, .section1-right {
+    width: 48%;
+}
+
+.section1-left {
+    padding: 2em;
+    position: relative;
+}
+
+.section1-pattern {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    z-index: -1;
+    transform: scale(2);
+}
+
+
+
+.section1-right h2 span {
+    font-weight: 900;
+    color: #fff;
+}
+
+.section1-right-h2-1 {
+    background-color: #F59E09;
+    color: #fff;
+    font-weight: 600;
+    padding: .5em .5em;
+    width: 60%;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.section1-right-h2-2 {
+    background-color: #F59E09;
+    color: #fff;
+    font-weight: 600;
+    padding: .5em .5em;
+    width: 65%;
+    text-align: center;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+.section1-right-h2-name {
+    font-size: 5.375rem;
+    font-weight: 700;
+}
+
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 h2 {
+width: 75%;
+font-weight: 500;
+font-size: 4.0625rem;
+line-height: 1.2;
+text-align: center;
+color: #F59E09;
+}
+
+.section2 img {
+    width: 80%;
+}
