@@ -13,8 +13,10 @@ html {
 }
 
 body {
-    width: 70%;
-    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -26,9 +28,29 @@ nav {
     margin-bottom: 7.5em;
     display: flex;
     align-items: center;
+    width: 70%;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 7.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.footer-flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 nav h1 {
+    color: #F59E09;
+}
+
+footer h1 {
     color: #F59E09;
 }
 
@@ -73,6 +95,7 @@ nav h1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
+    width: 70%;
 }
 
 .section1-left, .section1-right {
@@ -131,6 +154,7 @@ nav h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 70%;
 }
 
 .section2 h2 {
@@ -142,6 +166,70 @@ text-align: center;
 color: #F59E09;
 }
 
-.section2 img {
-    width: 80%;
+
+
+.section3 {
+    position: relative;
+    width: 70%;
+}
+
+.section3-text {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 50%;
+}
+
+
+
+.section4 {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.section4-right-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section4-right-image img {
+    width: 7.5%;
+}
+
+
+.section5 {
+    position: relative;
+    width: 70%;
+}
+
+.section5-text {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    width: 50%;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section6-main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section6-bkgd {
+    background-color: #F59E09;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
 }
