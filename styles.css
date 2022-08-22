@@ -318,7 +318,7 @@ a {
 
   .section6-bkgd {
     background-color: #f59e09;
-    height: 35vh;
+    height: 52.5%;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -717,7 +717,7 @@ a {
 
   .section6-bkgd {
     background-color: #f59e09;
-    height: 55vh;
+    height: 55%;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -1116,7 +1116,7 @@ a {
 
   .section6-bkgd {
     background-color: #f59e09;
-    height: 55vh;
+    height: 55%;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -1226,7 +1226,419 @@ a {
   }
 }
 
-/********************** XL SCREENS */
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  /************************** TOP NAV */
+  nav {
+    margin-top: 2vw;
+    margin-bottom: 7.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    /* background-color: green; */
+  }
+
+  .logo-link {
+    margin-right: auto;
+  }
+
+  nav h1 {
+    color: #f59e09;
+    font-size: 2.5vw;
+  }
+
+  .nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-button {
+    display: inline-block;
+    font-size: 1.75vw;
+    font-weight: 700;
+    background-color: #f59e09;
+    border: none;
+    padding: 0.5vw 1.5vw;
+    border-radius: 3px;
+    color: #fff;
+    border: 2px solid #f59e09;
+  }
+
+  .nav-button:hover {
+    background-color: #f2f5f9;
+    color: #242424;
+    border: 2px solid #242424;
+  }
+
+  .main-logo {
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-right: 0.75vw;
+    margin-bottom: 0;
+  }
+
+  /************************** SECTION 1 */
+  .section1-mobile {
+    display: none;
+  }
+
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+    width: 90%;
+    /* background-color: aquamarine; */
+  }
+
+  .section1-left,
+  .section1-right {
+    width: 48%;
+  }
+
+  .section1-left {
+    padding: 1vw;
+    position: relative;
+    margin-top: 2vw;
+  }
+
+  .section1-left img {
+    width: 100%;
+  }
+
+  .section1-pattern {
+    position: absolute;
+    right: 15vw;
+    top: -5vw;
+    z-index: -1;
+    transform: scale(2);
+  }
+
+  .section1-right h2 span {
+    font-weight: 900;
+    color: #fff;
+  }
+
+  .section1-right-h2-1 {
+    background-color: #f59e09;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5em 0.5em;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 2.5vw;
+  }
+
+  .section1-right-h2-2 {
+    background-color: #f59e09;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5em 0.5em;
+    width: 80%;
+    text-align: center;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    font-size: 2.5vw;
+  }
+
+  .section1-right-h2-name {
+    font-size: 4.5vw;
+    font-weight: 700;
+    margin-bottom: 0.125vw;
+  }
+
+  .section1-right h3 {
+    font-size: 2.5vw;
+    margin-bottom: 0.5vw;
+  }
+
+  .section1-right h4 {
+    color: #f59e09;
+    font-size: 2vw;
+    margin-bottom: 0.25vw;
+  }
+
+  .section1-right p {
+    margin-bottom: 2.5vw;
+    font-size: 1.5vw;
+  }
+
+  /************************** SECTION 2 */
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .section2 h2 {
+    width: 62.5%;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #f59e09;
+    margin-bottom: 3vw;
+  }
+
+  .section2 p {
+    width: 80%;
+    font-size: 2vw;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 5vw;
+    font-weight: 500;
+  }
+
+  .section2 img {
+    width: 90%;
+    margin-bottom: 3vw;
+  }
+
+  /************************** SECTION 3 */
+
+  .section3 {
+    width: 80%;
+    margin-bottom: 3vw;
+    position: relative;
+  }
+
+  .section3 img {
+    width: 100%;
+  }
+
+  .section3-text h2 {
+    font-size: 3.75vw;
+    margin-bottom: 4vw;
+    font-style: italic;
+    font-weight: 900;
+  }
+  .section3-text {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 3vw;
+    width: 60%;
+  }
+
+  .section3-text p {
+    font-size: 2.5vw;
+  }
+
+  /************************** SECTION 4 */
+  .section4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5vw;
+    text-align: left;
+  }
+
+  .section4-right,
+  .section4-left {
+    width: 50%;
+  }
+
+  .section4-left img {
+    width: 90%;
+  }
+
+  .section4-right {
+    padding: 0;
+  }
+
+  .section4-right-image {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .section4-right-image img {
+    display: inline-block;
+    width: 10%;
+  }
+
+  .section4-right h3 {
+    font-size: 2.5vw;
+    margin-bottom: 0.5vw;
+    font-weight: 800;
+  }
+
+  .section4-right h2 {
+    color: #f59e09;
+    font-size: 4vw;
+    margin-bottom: 1vw;
+    font-weight: 800;
+  }
+
+  .section4-right p {
+    font-size: 2.5vw;
+  }
+
+  /************************** SECTION 5 */
+
+  .section5 {
+    width: 80%;
+    margin-bottom: 5vw;
+    position: relative;
+  }
+  .section5 img {
+    width: 100%;
+  }
+  .section5-text h2 {
+    font-size: 3.5vw;
+    margin-bottom: 4vw;
+    font-style: italic;
+    font-weight: 900;
+  }
+  .section5-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 3.5vw;
+    margin-right: 4.5vw;
+    text-align: right;
+    width: 50%;
+  }
+
+  .section5-text p {
+    font-size: 2.5vw;
+  }
+
+  /************************** SECTION 6 */
+  .section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .section6-main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section6-bkgd {
+    background-color: #f59e09;
+    height: 45%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+  }
+
+  .section6 h2 {
+    width: 65%;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #f59e09;
+    margin-bottom: 2vw;
+  }
+
+  .section6 h3 {
+    width: 70%;
+    font-weight: 900;
+    font-size: 4vw;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2vw;
+  }
+
+  .section6 p {
+    color: #fff;
+    font-weight: 700;
+    width: 75%;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 4vw;
+    line-height: 1.4;
+  }
+
+  .section6 img {
+    width: 70%;
+    margin-bottom: 2vw;
+  }
+
+  /************************** FOOTER */
+  footer {
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .footer-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: green; */
+  }
+
+  footer h1 {
+    color: #f59e09;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 2.5vw;
+  }
+
+  .footer-bottom {
+    width: 20%;
+    text-align: center;
+    margin-top: 2vw;
+  }
+
+  .footer-bottom p {
+    font-size: 1.125vw;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vw;
+  }
+
+  .footer-social img {
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .footer-button {
+    display: inline-block;
+    font-size: 1.75vw;
+    font-weight: 700;
+    background-color: #f59e09;
+    border: none;
+    padding: 0.5vw 1.5vw;
+    border-radius: 3px;
+    color: #fff;
+    border: 2px solid #f59e09;
+    margin-bottom: 0;
+  }
+
+  .footer-button:hover {
+    font-size: 1.75vw;
+    font-weight: 700;
+    background-color: #f2f5f9;
+    border: none;
+    padding: 0.5vw 1.5vw;
+    border-radius: 3px;
+    color: #242424;
+    text-decoration: none;
+    border: 2px solid #242424;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   /************************** TOP NAV */
   nav {
@@ -1276,6 +1688,7 @@ a {
     width: 1.75vw;
     height: 1.75vw;
     margin-right: 0.75vw;
+    margin-bottom: 0;
   }
 
   /************************** SECTION 1 */
@@ -1449,6 +1862,10 @@ a {
     justify-content: flex-end;
   }
 
+  .section4-right {
+    padding: 0;
+  }
+
   .section4-right-image img {
     display: inline-block;
     width: 10%;
@@ -1519,7 +1936,7 @@ a {
 
   .section6-bkgd {
     background-color: #f59e09;
-    height: 57.5vh;
+    height: 45%;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -1632,3 +2049,5 @@ a {
     border: 2px solid #242424;
   }
 }
+
+
