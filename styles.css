@@ -28,12 +28,13 @@ a {
   text-decoration: none;
 }
 
+/* PHONE SCREENS */
 @media screen and (max-width: 500px) {
   /************************** TOP NAV */
   nav {
     margin-top: 10vw;
     margin-bottom: 8.5vw;
-    width: 100%;
+    width: 100vw;
   }
 
   nav h1 {
@@ -57,6 +58,10 @@ a {
     margin-bottom: 1vw;
   }
 
+  .nav-button-group p {
+    display: none;
+  }
+
   /************************** SECTION 1 */
 
   .section1 {
@@ -66,10 +71,9 @@ a {
   .section1-mobile {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15vw;
-    width: 90%;
+    margin-bottom: 10vw;
+    width: 90vw;
     text-align: center;
-    /* background-color: yellow; */
   }
 
   .section1-mobile-button {
@@ -99,6 +103,7 @@ a {
     padding: 3vw;
     position: relative;
     margin-top: 7vw;
+    margin-bottom: 10vw;
   }
 
   .section1-mobile-pattern {
@@ -155,9 +160,10 @@ a {
   }
 
   .section1-mobile-bottom p {
-    margin-top: 2vw;
-    margin-bottom: 10vw;
-    font-size: 4vw;
+    margin-top: 5vw;
+    margin-bottom: 0;
+    font-size: 5.75vw;
+    font-weight: 900;
   }
 
   /************************** SECTION 2 */
@@ -165,7 +171,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 90vw;
   }
 
   .section2 h2 {
@@ -179,7 +185,7 @@ a {
   }
 
   .section2 p {
-    width: 90%;
+    width: 85vw;
     font-size: 4vw;
     text-align: center;
     line-height: 1.5;
@@ -195,7 +201,7 @@ a {
   /************************** SECTION 3 */
 
   .section3 {
-    width: 90%;
+    width: 90vw;
     margin-bottom: 3vw;
     position: relative;
   }
@@ -223,7 +229,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 90vw;
     margin-bottom: 4vw;
     text-align: center;
   }
@@ -274,7 +280,7 @@ a {
   /************************** SECTION 5 */
 
   .section5 {
-    width: 90%;
+    width: 90vw;
     margin-bottom: 10vw;
     position: relative;
   }
@@ -310,7 +316,7 @@ a {
   }
 
   .section6-main {
-    width: 90%;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -319,7 +325,7 @@ a {
   .section6-bkgd {
     background-color: #f59e09;
     height: 52.5%;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     z-index: -1;
     bottom: 0;
@@ -348,7 +354,7 @@ a {
   .section6 p {
     color: #fff;
     font-weight: 700;
-    width: 90%;
+    width: 82vw;
     font-size: 3.75vw;
     text-align: center;
     margin-bottom: 8vw;
@@ -412,7 +418,7 @@ a {
     border-radius: 3px;
     color: #fff;
     border: 2px solid #f59e09;
-    margin-bottom: 5vw;
+    margin-bottom: 1.75vw;
   }
 
   .footer-button:hover {
@@ -426,14 +432,22 @@ a {
     text-decoration: none;
     border: 2px solid #242424;
   }
+
+  .footer-button-group p {
+    margin-bottom: 0;
+    font-size: 5.5vw;
+    font-weight: 900;
+    margin-bottom: 5vw;
+  }
 }
 
+/* BETWEEN PHONE & TABLET SCREENS */
 @media screen and (min-width: 500px) {
   /************************** TOP NAV */
   nav {
     margin-top: 10vw;
     margin-bottom: 8.5vw;
-    width: 80%;
+    width: 80vw;
   }
 
   nav h1 {
@@ -457,6 +471,10 @@ a {
     margin-bottom: 0.5vw;
   }
 
+  .nav-button-group p {
+    display: none;
+  }
+
   /************************** SECTION 1 */
 
   .section1 {
@@ -466,8 +484,8 @@ a {
   .section1-mobile {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15vw;
-    width: 80%;
+    margin-bottom: 10vw;
+    width: 80vw;
     text-align: center;
   }
 
@@ -477,9 +495,9 @@ a {
     background-color: #f59e09;
     border: none;
     padding: 2vw 4vw;
-    border-radius: 3px;
+    border-radius: 1vw;
     color: #fff;
-    border: 2px solid #f59e09;
+    border: 0.5vw solid #f59e09;
   }
 
   .section1-mobile-button:hover {
@@ -488,16 +506,17 @@ a {
     background-color: #f2f5f9;
     border: none;
     padding: 2vw 4vw;
-    border-radius: 3px;
+    border-radius: 1vw;
     color: #242424;
     text-decoration: none;
-    border: 2px solid #242424;
+    border: 0.5vw solid #242424;
   }
 
   .section1-mobile-middle {
     padding: 3vw;
     position: relative;
     margin-top: 7vw;
+    margin-bottom: 10vw;
   }
 
   .section1-mobile-pattern {
@@ -554,9 +573,10 @@ a {
   }
 
   .section1-mobile-bottom p {
-    margin-top: 2vw;
-    margin-bottom: 10vw;
-    font-size: 4vw;
+    margin-top: 4vw;
+    margin-bottom: 0;
+    font-size: 4.5vw;
+    font-weight: 900;
   }
 
   /************************** SECTION 2 */
@@ -564,7 +584,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 80vw;
   }
 
   .section2 h2 {
@@ -594,7 +614,7 @@ a {
   /************************** SECTION 3 */
 
   .section3 {
-    width: 80%;
+    width: 80vw;
     margin-bottom: 3vw;
     position: relative;
   }
@@ -622,7 +642,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 80vw;
     margin-bottom: 3vw;
     text-align: center;
   }
@@ -673,7 +693,7 @@ a {
   /************************** SECTION 5 */
 
   .section5 {
-    width: 80%;
+    width: 80vw;
     margin-bottom: 10vw;
     position: relative;
   }
@@ -709,7 +729,7 @@ a {
   }
 
   .section6-main {
-    width: 80%;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -718,7 +738,7 @@ a {
   .section6-bkgd {
     background-color: #f59e09;
     height: 55%;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     z-index: -1;
     bottom: 0;
@@ -747,7 +767,7 @@ a {
   .section6 p {
     color: #fff;
     font-weight: 700;
-    width: 90%;
+    width: 77vw;
     font-size: 3.5vw;
     text-align: center;
     margin-bottom: 8vw;
@@ -808,10 +828,10 @@ a {
     background-color: #f59e09;
     border: none;
     padding: 2vw 4vw;
-    border-radius: 3px;
+    border-radius: 1vw;
     color: #fff;
-    border: 2px solid #f59e09;
-    margin-bottom: 5vw;
+    border: 0.5vw solid #f59e09;
+    margin-bottom: 1vw;
   }
 
   .footer-button:hover {
@@ -820,19 +840,26 @@ a {
     background-color: #f2f5f9;
     border: none;
     padding: 2vw 4vw;
-    border-radius: 3px;
+    border-radius: 1vw;
     color: #242424;
     text-decoration: none;
-    border: 2px solid #242424;
+    border: 0.5vw solid #242424;
+  }
+
+  .footer-button-group p {
+    margin-bottom: 0;
+    font-size: 4.5vw;
+    font-weight: 900;
   }
 }
 
+/* TABLET SCREENS */
 @media screen and (min-width: 700px) {
   /************************** TOP NAV */
   nav {
     margin-top: 8vw;
     margin-bottom: 8vw;
-    width: 70%;
+    width: 70vw;
   }
 
   nav h1 {
@@ -856,6 +883,10 @@ a {
     margin-bottom: 1vw;
   }
 
+  .nav-button-group p {
+    display: none;
+  }
+
   /************************** SECTION 1 */
 
   .section1 {
@@ -865,8 +896,8 @@ a {
   .section1-mobile {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15vw;
-    width: 70%;
+    margin-bottom: 10vw;
+    width: 70vw;
     text-align: center;
   }
 
@@ -876,9 +907,10 @@ a {
     background-color: #f59e09;
     border: none;
     padding: 2vw 4vw;
-    border-radius: 3px;
+    border-radius: 1vw;
     color: #fff;
-    border: 2px solid #f59e09;
+    border: 0.5vw solid #f59e09;
+    margin-bottom: 2vw;
   }
 
   .section1-mobile-button:hover {
@@ -887,16 +919,17 @@ a {
     background-color: #f2f5f9;
     border: none;
     padding: 2vw 4vw;
-    border-radius: 3px;
+    border-radius: 1vw;
     color: #242424;
     text-decoration: none;
-    border: 2px solid #242424;
+    border: 0.5vw solid #242424;
   }
 
   .section1-mobile-middle {
     padding: 1vw;
     position: relative;
     margin-top: 7vw;
+    margin-bottom: 10vw;
   }
 
   .section1-mobile-pattern {
@@ -919,7 +952,6 @@ a {
     padding: 2vw 4vw;
     width: 90%;
     text-align: center;
-    margin-bottom: 2.5vw;
     font-size: 4.5vw;
   }
 
@@ -953,9 +985,10 @@ a {
   }
 
   .section1-mobile-bottom p {
-    margin-top: 3vw;
-    margin-bottom: 10vw;
-    font-size: 3.5vw;
+    margin-top: 4vw;
+    margin-bottom: 0;
+    font-size: 4.5vw;
+    font-weight: 900;
   }
 
   /************************** SECTION 2 */
@@ -963,7 +996,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 70vw;
   }
 
   .section2 h2 {
@@ -977,7 +1010,7 @@ a {
   }
 
   .section2 p {
-    width: 90%;
+    width: 75vw;
     font-size: 3.25vw;
     text-align: center;
     line-height: 1.5;
@@ -993,7 +1026,7 @@ a {
   /************************** SECTION 3 */
 
   .section3 {
-    width: 70%;
+    width: 70vw;
     margin-bottom: 3vw;
     position: relative;
   }
@@ -1021,7 +1054,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 70vw;
     margin-bottom: 3vw;
     text-align: center;
   }
@@ -1072,7 +1105,7 @@ a {
   /************************** SECTION 5 */
 
   .section5 {
-    width: 70%;
+    width: 70vw;
     margin-bottom: 10vw;
     position: relative;
   }
@@ -1108,7 +1141,7 @@ a {
   }
 
   .section6-main {
-    width: 70%;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1117,7 +1150,7 @@ a {
   .section6-bkgd {
     background-color: #f59e09;
     height: 55%;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     z-index: -1;
     bottom: 0;
@@ -1146,7 +1179,7 @@ a {
   .section6 p {
     color: #fff;
     font-weight: 700;
-    width: 100%;
+    width: 72vw;
     font-size: 3.25vw;
     text-align: center;
     margin-bottom: 8vw;
@@ -1207,10 +1240,10 @@ a {
     background-color: #f59e09;
     border: none;
     padding: 2vw 4vw;
-    border-radius: 3px;
+    border-radius: 1vw;
     color: #fff;
-    border: 2px solid #f59e09;
-    margin-bottom: 5vw;
+    border: 0.5vw solid #f59e09;
+    margin-bottom: 1vw;
   }
 
   .footer-button:hover {
@@ -1219,23 +1252,29 @@ a {
     background-color: #f2f5f9;
     border: none;
     padding: 2vw 4vw;
-    border-radius: 3px;
+    border-radius: 1vw;
     color: #242424;
     text-decoration: none;
-    border: 2px solid #242424;
+    border: 0.5vw solid #242424;
+  }
+
+  .footer-button-group p {
+    margin-bottom: 0;
+    font-size: 4.5vw;
+    font-weight: 900;
   }
 }
 
+/* MEDIUM TO LARGE SCREENS */
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
   /************************** TOP NAV */
   nav {
     margin-top: 2vw;
     margin-bottom: 7.5vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    width: 90%;
-    /* background-color: green; */
+    width: 90vw;
   }
 
   .logo-link {
@@ -1261,15 +1300,21 @@ a {
     background-color: #f59e09;
     border: none;
     padding: 0.5vw 1.5vw;
-    border-radius: 3px;
+    border-radius: 0.5vw;
     color: #fff;
-    border: 2px solid #f59e09;
+    border: 0.25vw solid #f59e09;
+    margin-bottom: 0.5vw;
+  }
+
+  .nav-button-group p {
+    font-size: 1.9vw;
+    font-weight: 900;
   }
 
   .nav-button:hover {
     background-color: #f2f5f9;
     color: #242424;
-    border: 2px solid #242424;
+    border: 0.25vw solid #242424;
   }
 
   .main-logo {
@@ -1277,6 +1322,10 @@ a {
     height: 2.5vw;
     margin-right: 0.75vw;
     margin-bottom: 0;
+  }
+
+  .nav-button-group p {
+    display: block;
   }
 
   /************************** SECTION 1 */
@@ -1288,8 +1337,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2vw;
-    width: 90%;
-    /* background-color: aquamarine; */
+    width: 90vw;
   }
 
   .section1-left,
@@ -1346,7 +1394,7 @@ a {
   .section1-right-h2-name {
     font-size: 4.5vw;
     font-weight: 700;
-    margin-bottom: 0.125vw;
+    margin-bottom: 3vw;
   }
 
   .section1-right h3 {
@@ -1370,11 +1418,11 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 90vw;
   }
 
   .section2 h2 {
-    width: 62.5%;
+    width: 55vw;
     font-weight: 500;
     font-size: 4vw;
     line-height: 1.2;
@@ -1384,7 +1432,7 @@ a {
   }
 
   .section2 p {
-    width: 80%;
+    width: 70vw;
     font-size: 2vw;
     text-align: center;
     line-height: 1.5;
@@ -1400,7 +1448,7 @@ a {
   /************************** SECTION 3 */
 
   .section3 {
-    width: 80%;
+    width: 80vw;
     margin-bottom: 3vw;
     position: relative;
   }
@@ -1431,7 +1479,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 80%;
+    width: 80vw;
     margin-bottom: 5vw;
     text-align: left;
   }
@@ -1479,7 +1527,7 @@ a {
   /************************** SECTION 5 */
 
   .section5 {
-    width: 80%;
+    width: 80vw;
     margin-bottom: 5vw;
     position: relative;
   }
@@ -1516,7 +1564,7 @@ a {
   }
 
   .section6-main {
-    width: 90%;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1525,7 +1573,7 @@ a {
   .section6-bkgd {
     background-color: #f59e09;
     height: 45%;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     z-index: -1;
     bottom: 0;
@@ -1580,8 +1628,7 @@ a {
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    /* background-color: green; */
+    align-items: flex-start;
   }
 
   footer h1 {
@@ -1592,7 +1639,7 @@ a {
   }
 
   .footer-bottom {
-    width: 20%;
+    width: 25vw;
     text-align: center;
     margin-top: 2vw;
   }
@@ -1620,10 +1667,15 @@ a {
     background-color: #f59e09;
     border: none;
     padding: 0.5vw 1.5vw;
-    border-radius: 3px;
+    border-radius: 0.5vw;
     color: #fff;
-    border: 2px solid #f59e09;
-    margin-bottom: 0;
+    border: 0.25vw solid #f59e09;
+    margin-bottom: 0.5vw;
+  }
+
+  .footer-button-group p {
+    font-size: 1.9vw;
+    font-weight: 900;
   }
 
   .footer-button:hover {
@@ -1632,22 +1684,23 @@ a {
     background-color: #f2f5f9;
     border: none;
     padding: 0.5vw 1.5vw;
-    border-radius: 3px;
+    border-radius: 0.5vw;
     color: #242424;
     text-decoration: none;
-    border: 2px solid #242424;
+    border: 0.25vw solid #242424;
   }
 }
 
+/* XLARGE SCREENS */
 @media screen and (min-width: 1200px) {
   /************************** TOP NAV */
   nav {
     margin-top: 2vw;
     margin-bottom: 7.5vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    width: 70%;
+    width: 70vw;
   }
 
   .logo-link {
@@ -1673,15 +1726,21 @@ a {
     background-color: #f59e09;
     border: none;
     padding: 0.5vw 1.5vw;
-    border-radius: 3px;
+    border-radius: 0.25vw;
     color: #fff;
-    border: 2px solid #f59e09;
+    border: 0.175vw solid #f59e09;
+    margin-bottom: 0.5vw;
+  }
+
+  .nav-button-group p {
+    font-size: 1.35vw;
+    font-weight: 900;
   }
 
   .nav-button:hover {
     background-color: #f2f5f9;
     color: #242424;
-    border: 2px solid #242424;
+    border: 0.175vw solid #242424;
   }
 
   .main-logo {
@@ -1689,6 +1748,10 @@ a {
     height: 1.75vw;
     margin-right: 0.75vw;
     margin-bottom: 0;
+  }
+
+  .nav-button-group p {
+    display: block;
   }
 
   /************************** SECTION 1 */
@@ -1700,8 +1763,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2vw;
-    width: 70%;
-    /* background-color: aquamarine; */
+    width: 70vw;
   }
 
   .section1-left,
@@ -1758,7 +1820,7 @@ a {
   .section1-right-h2-name {
     font-size: 4.25vw;
     font-weight: 700;
-    margin-bottom: 0.125vw;
+    margin-bottom: 2vw;
   }
 
   .section1-right h3 {
@@ -1782,11 +1844,11 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 70vw;
   }
 
   .section2 h2 {
-    width: 62.5%;
+    width: 45vw;
     font-weight: 500;
     font-size: 3.25vw;
     line-height: 1.2;
@@ -1796,7 +1858,7 @@ a {
   }
 
   .section2 p {
-    width: 80%;
+    width: 55vw;
     font-size: 1.8vw;
     text-align: center;
     line-height: 1.5;
@@ -1812,7 +1874,7 @@ a {
   /************************** SECTION 3 */
 
   .section3 {
-    width: 65%;
+    width: 65vw;
     margin-bottom: 3vw;
     position: relative;
   }
@@ -1843,7 +1905,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 65%;
+    width: 65vw;
     margin-bottom: 5vw;
     text-align: left;
   }
@@ -1885,13 +1947,13 @@ a {
   }
 
   .section4-right p {
-    font-size: 1.9vw;
+    font-size: 2.1vw;
   }
 
   /************************** SECTION 5 */
 
   .section5 {
-    width: 65%;
+    width: 65vw;
     margin-bottom: 3vw;
     position: relative;
   }
@@ -1937,14 +1999,14 @@ a {
   .section6-bkgd {
     background-color: #f59e09;
     height: 45%;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     z-index: -1;
     bottom: 0;
   }
 
   .section6 h2 {
-    width: 65%;
+    width: 50vw;
     font-weight: 500;
     font-size: 3.25vw;
     line-height: 1.2;
@@ -1954,7 +2016,7 @@ a {
   }
 
   .section6 h3 {
-    width: 70%;
+    width: 50vw;
     font-weight: 900;
     font-size: 3vw;
     line-height: 1.2;
@@ -1966,7 +2028,7 @@ a {
   .section6 p {
     color: #fff;
     font-weight: 700;
-    width: 77.5%;
+    width: 57.5vw;
     font-size: 1.75vw;
     text-align: center;
     margin-bottom: 3vw;
@@ -1985,14 +2047,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 70vw;
   }
 
   .footer-flex {
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
   }
 
   footer h1 {
@@ -2003,7 +2065,7 @@ a {
   }
 
   .footer-bottom {
-    width: 20%;
+    width: 25%;
     text-align: center;
     margin-top: 2vw;
   }
@@ -2020,7 +2082,7 @@ a {
   }
 
   .footer-social img {
-    height: 100%;
+    height: 1.5vw;
     cursor: pointer;
   }
 
@@ -2031,10 +2093,10 @@ a {
     background-color: #f59e09;
     border: none;
     padding: 0.5vw 1.5vw;
-    border-radius: 3px;
+    border-radius: 0.25vw;
     color: #fff;
-    border: 2px solid #f59e09;
-    margin-bottom: 0;
+    border: 0.175vw solid #f59e09;
+    margin-bottom: 0.5vw;
   }
 
   .footer-button:hover {
@@ -2043,11 +2105,21 @@ a {
     background-color: #f2f5f9;
     border: none;
     padding: 0.5vw 1.5vw;
-    border-radius: 3px;
+    border-radius: 0.25vw;
     color: #242424;
     text-decoration: none;
-    border: 2px solid #242424;
+    border: 0.175vw solid #242424;
+  }
+
+  .footer-button-group p {
+    font-size: 1.35vw;
+    font-weight: 900;
   }
 }
 
-
+/* XL BAR FIX */
+@media screen and (min-width: 1600px) {
+  .section6-bkgd {
+    height: 50%;
+  }
+}
