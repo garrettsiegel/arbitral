@@ -28,6 +28,28 @@ a {
   text-decoration: none;
 }
 
+.section2-video {
+  width: 100%;
+  background-color: #f2f5f9;
+  border-radius: 3vw;
+  padding: 4vw;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5vw;
+}
+
 /* PHONE SCREENS */
 @media screen and (max-width: 500px) {
   /************************** TOP NAV */
@@ -193,7 +215,7 @@ a {
     font-weight: 500;
   }
 
-  .section2 img {
+  .section2-video {
     width: 100%;
     margin-bottom: 4vw;
   }
@@ -606,7 +628,7 @@ a {
     font-weight: 500;
   }
 
-  .section2 img {
+  .section2-video {
     width: 100%;
     margin-bottom: 4vw;
   }
@@ -1018,7 +1040,7 @@ a {
     font-weight: 500;
   }
 
-  .section2 img {
+  .section2-video {
     width: 100%;
     margin-bottom: 4vw;
   }
@@ -1440,7 +1462,7 @@ a {
     font-weight: 500;
   }
 
-  .section2 img {
+  .section2-video {
     width: 90%;
     margin-bottom: 3vw;
   }
@@ -1866,8 +1888,8 @@ a {
     font-weight: 500;
   }
 
-  .section2 img {
-    width: 90%;
+  .section2-video {
+    width: 95%;
     margin-bottom: 3vw;
   }
 
